@@ -1,38 +1,123 @@
-.App {
+body {
+  font-family: "Titillium Web", sans-serif;
+  background-image: linear-gradient(#1561ad, #c2dde6);
+  color: #ffffff;
+}
+
+.nav-background {
+ background-image: linear-gradient(#1561ad, #c2dde6);
+  height: 100px;
+}
+.navbar-light {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 2.5rem 0rem ;
+}
+
+
+.jumbo {
+  background: url(./assets/flight01.jpg) no-repeat fixed bottom;
+  background-color: #6992c7dc;
+  background-size: cover;
+  color: #ffffff;
+  position: relatitve;
+  z-index: -2;
+}
+
+.jumbo_div {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.jumbo_div h1 {
+  font-size: large;
+  font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.con_detail {
+    padding: 5% 5%;
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.Flight-search {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgb(75, 27, 35);
 }
 
-.App-link {
-  color: #61dafb;
+.fingertips {
+  text-align: center;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+.flight-api {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  color: #ffffff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title_div {
+  text-align: center;
+  background-image: linear-gradient(#a3bded, #6991c7);
+  background-color: #d0d0d0;
+  height: 150px;
+  padding-top: 20px;
+}
+
+.form_div {
+  text-align: center;
+  background-image: linear-gradient(#a3bdedbe, #6992c7dc);
+  height: 100px;
+  padding-top: 30px;
+}
+
+.form_input {
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 210px;
+  height: 55px;
+}
+
+.mybutton {
+  background-color: #7892c2;
+  border-radius: 0px;
+  border: 2px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 15px;
+  text-decoration: none;
+}
+.mybutton:hover {
+  background: linear-gradient(#476e9e, #6a99f0 100%);
+  background-color: #476e9e;
+}
+.mybutton:active {
+  position: relative;
+  top: 1px;
+}
+
+.status_head {
+  padding: 40px;
+  text-align: center;
+  background-image: linear-gradient(#6992c7dc, #6992c7dc);
+  height: 100px;
+}
+
+.status_div {
+  background-image: linear-gradient(#a3bdedbe, #6992c7dc);
+  padding: 7% 15%;
+}
+
+.status_body {
+  text-align: center;
+  padding: 5% 0;
+  background-image: linear-gradient(#b7c4dbbe, #b7c4dbbe);
+}
+
+.departure {
+}
+
+.departure_div {
 }
