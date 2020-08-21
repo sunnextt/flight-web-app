@@ -6,10 +6,10 @@ const Titles = () => (
     <div className="title_div">
       <Row>
         <Col>
-            <h1 className="title-container">Flight Finder</h1>
-            <h3 className="title-container">
+            <h2 className="title-container">Flight Finder</h2>
+            <h4 className="title-container">
               Check out your flight Details here...
-            </h3>
+            </h4>
         </Col>
       </Row>
     </div>

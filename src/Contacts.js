@@ -1,8 +1,15 @@
-import React from 'react';
+import React from "react";
 
-export const Contacts = () =>(
-    <div>
-        <h2>Contacts</h2>
-        <p>work in progress. pls come back and check later</p>
-    </div>
-)
+
+
+function Contacts() {
+  return (
+    <section className="contact-section" id="contacts">
+      <div>
+        <h1>Contact Us Here</h1>
+      </div>
+    </section>
+  );
+}
+
+export default Contacts

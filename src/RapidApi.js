@@ -70,7 +70,7 @@ class RapidApi extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="bgst">
         <Title />
         <Forming getFlight={this.getFlight} />
         <Status
